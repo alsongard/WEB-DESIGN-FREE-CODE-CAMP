@@ -11,27 +11,23 @@
     <p id="description">Every Step Takes you Closer</p>
     <form id="survey-form">
       <fieldset>
-        <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name..." requeired ></label>
-        <label>Email<input id="email" type="email" placeholder="Enter your email..." required></label>
-        <label>Age<input id="number" type="number" min="12" max="120" placeholder="Enter your age..."></label>
+        <label for="name-label">Name<input id="name" type="text" placeholder="Enter your name..." requeired ></label>
+        <label for="email">Email<input id="email" type="email" placeholder="Enter your email..." required></label>
+        <label for="age">Age<input id="number" type="number" min="12" max="120" placeholder="Enter your age..."></label>
       </fieldset>
       <fieldset>
-<label>Programming Language
-  <select id="dropDown">
-    <option value=""></option>
-    <option>High Level Language</option>
-    <option>Low level Language</option>
-  </select>
-</label>
-<label>Data Science
-  <input name="data" type="radio">
-</label>
-<label>
-  Web Design
-  <input name="web" type="radio">
-</label>
-</fieldset>
-<input type="submit" value="submit" name="submit">
-    </form>
+        <label>Programming Language
+          <select id="dropDown">
+            <option value=" " selected="selected">Choose ...</option>
+            <option>High Level Language</option>
+            <option>Low level Language</option>
+          </select>
+        </label>
+        <label for="data-science"><input name="data-web" type="radio"  class="inline" value="data-science" checked>Data Science</label>
+        <label for="web-design"><input name="data-web" type="radio" class="inline" value="web-design"> Web Design</label>
+      </fieldset>
+      <input type="submit" value="submit" name="submit">
+  </form>
+  
   </body>
 </html>
