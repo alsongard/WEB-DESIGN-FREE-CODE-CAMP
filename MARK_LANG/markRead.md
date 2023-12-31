@@ -68,6 +68,28 @@ to use **Blockquotes** use the following syntax
 1. Second Item
 1. Third Item
 
+> #### unOrdered Lists
+>> To use an unordered list use either one or single asterisk, plus or hyphen sign
+>> Example:
+>>> Unordered List
+>>>> * Life
+>>>> - Good
+>>>> + Great
+>>>> * Programmer
+>>>> * 1989\ backpspace
+
+
+### Code blocks
+To declare a block of codes in your readme file using one tab equal to 4 spaces and if in a list use 8 spaces.
+
+
+> Example:
+>> the dataFrame Object offers several methods for providing useful information
+>>> * max()
+>>> * descriptor - provide info on statistical information
+
+
+
 
 
 
