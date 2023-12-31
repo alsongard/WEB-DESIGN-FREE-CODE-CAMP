@@ -2,7 +2,7 @@ body{
   margin:0;
   width:100%;
   height:100vh;
-  background: linear-gradient(rgba(122, 99, 177, 0.363),rgba(31, 9, 83, 0.699)),url(https://learn.g2.com/hubfs/web_developer.jpg)no-repeat;
+  background: linear-gradient(180deg,rgba(122, 99, 177, 0.363),rgba(31, 9, 83, 0.699)),url(https://learn.g2.com/hubfs/web_developer.jpg)no-repeat;
   background-position: center;
 }
 h1{
