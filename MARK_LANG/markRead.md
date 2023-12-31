@@ -57,9 +57,9 @@ to use **Blockquotes** use the following syntax
 
 # return
 > Hi there this is blockquote of text one
->> Another blockquote text
->> Also blockquotes can be used for nested
->> End of blockqoute statements
+>> Another blockquote text.
+>> Also blockquotes can be used for nested.
+>> End of blockqoute statements.
 
 
 ### lists
@@ -81,6 +81,8 @@ to use **Blockquotes** use the following syntax
 
 ### Code blocks
 To declare a block of codes in your readme file using one tab equal to 4 spaces and if in a list use 8 spaces.
+`` import pandas as pd ``
+`` pd.read_csv("filepath")``
 
 
 > Example:
@@ -89,7 +91,8 @@ To declare a block of codes in your readme file using one tab equal to 4 spaces 
 >>> * descriptor - provide info on statistical information
 
 
+### Links
+to create links use curly braces for the name of the link[]  and followed by the link in bracket()
 
-
-
-
+>> Example:
+>>> To check my progress in my github account use the following [Gard Alson Safari](https://github.com/alsongard)
