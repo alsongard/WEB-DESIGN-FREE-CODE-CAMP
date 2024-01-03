@@ -5,14 +5,17 @@
 
 ************************************************************************
 ### COLOR
-color properties:
-hsl() - takes in 3 arguments one for hue,saturation and lightness. lightness and saturation are given in percentage.
+#### color properties:
+>>>* hsl() - takes in 3 arguments one for hue,saturation and lightness. lightness and saturation are given in percentage.
 
-hex value uses 6 values 1 pair representing each main color code RGB it starts with #00FF00 FF means 100% of color, 00 is 0% of color.
+>>> * hex value uses 6 values 1 pair representing each main color code RGB it starts with #00FF00 FF means 100% of color, 00 is 0% of color.
 
-rgb() is also used for setting the color property, it takes in 3 arguments each representing the 3 main color codes having values between 0-255.
+>>> * rgb() is also used for setting the color property, it takes in 3 arguments each representing the 3 main color codes having values between 0-255.
 
-linear-gradient - works with background{} property. It takes in 3 arguments the first being the degree of change and the secong and third being the color to change from and to second color E.g background:linear-gradient(90deg, rgb(255,0,0),rgb(0,255,0)) red to green, it can also take another argument, also color stops.
+>>> * linear-gradient - works with background{} property. It takes in 3 arguments the first being the degree of change and the secong and third being the color to change from and to second color.
+>>> E.g changes from red to green with a 90 deg change 
+>>> ``background:linear-gradient(90deg, rgb(255,0,0),rgb(0,255,0)) `` 
+>>> it can also take another argument, also color stops.
 
 example:
 class name = "mine"
@@ -45,3 +48,7 @@ box-shadow:offsetX offsetY blurRadius spreadRadius Color;
 >>> * column-reverse
 >>> * row(default)
 >>> * row-reverse
+ 
+## wrap
+>> the wrap method is used to push elements to the next line ``flex-wrap:wrap;``. However this can be removed by assiging ***none***.
+
