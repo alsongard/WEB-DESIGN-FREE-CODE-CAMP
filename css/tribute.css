@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+}
+.top
+{
+    background:  rgb(203, 211, 212);
+    margin-top:50px;
+    padding:50px;
+
+}
+.top > h1, .top p
+{
+    text-align: center;
+}
+h1
+{
+    font-size:25px;
+}
