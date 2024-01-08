@@ -38,7 +38,7 @@ box-shadow:offsetX offsetY blurRadius spreadRadius Color;
 # CSS FLEXBOX
 ***********************************
 ## border-box propery
-the border-box propery uses 2 models one  being content-box and the other border-box.With content-box which is the default is, padding and margin values are added to the with of the element content e.g img while with the border-box model the entire width is calculated by adding both the padding,margin and width of the content.
+the border-box propery uses 2 models one  being content-box and the other border-box.With content-box which is the default is, padding and margin values are added to the width of the element content e.g img , while with the border-box model the entire width is calculated by adding both the padding,margin and width of the content.
 
 ## flexbox
 The flexbox has 2 axis mainly the main axis and the cross axis.
