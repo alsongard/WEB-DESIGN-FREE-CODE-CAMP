@@ -98,3 +98,15 @@ will select the last element of span
 ### first-of-type
 It is used to select the first appearance of the element
 ``span:first-of-type{..}``
+## Centering elements in a page
+to center an element in a page, one can use the following options
+### setting margin
+for the margin, use
+``margin:0 auto``
+### setting position
+set the position the absolute, and ensure the top,right,bottom,left values are 0.
+>>```position:absolute;
+>>top:0
+>>right:0
+>>bottom:0
+>>left:0
