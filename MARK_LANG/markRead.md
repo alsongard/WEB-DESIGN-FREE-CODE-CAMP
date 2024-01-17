@@ -93,3 +93,12 @@ to create links use curly braces for the name of the link[]  and followed by the
 
 >> Example:
 >>> To check my progress in my github account use the following [Gard Alson Safari](https://github.com/alsongard)
+
+### Code
+to set a statement as a piece of code use the backticks 
+`` code_statement `` 
+and for multiple code statements or code blocks use  triple backticks
+```
+    print("Hello World")
+    <p>Hello World</p>
+```
