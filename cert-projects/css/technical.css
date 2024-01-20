@@ -9,7 +9,6 @@ body{
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 100vh;
 }
 nav ul{
   margin: 0;
@@ -35,7 +34,7 @@ nav ul li a{
   line-height: 50px;
   font-weight: 500;
   /* background-color: red; */
-  /* text-align: right; */
+  /* text-align:right; */
 }
 .main-section > header{
   font-size:25px;
@@ -44,26 +43,24 @@ nav ul li a{
   padding:0;
 }
 .main-section{
-  margin-left: 30px;
   width:1200px;
   max-width:80%;
   display: block;
+  margin:30px 0 30px 30px;
 }
 .main-section > p{
   color:gray;
   padding-left:30px;
-  margin-bottom:0;
+  /* margin-bottom:0; */
   padding-bottom: 0;
-  line-height: 5px;
+  margin:0px;
   font-size:15px;
-  /* color:rgba(17, 57, 92, 0.062); */
 }
 code{
   display: block;
-  background: blue;
-  margin:20px 30px;
+  background: rgb(230, 230, 238);
+  margin:10px 50px;
   padding:15px;
-  position:static;
   width:100%;
   border-radius: 3px;
   /* z-index:0; */
@@ -71,8 +68,11 @@ code{
 }
 .main-section > .list{
   /* background-color: red; */
-  margin-left: 60px;
-  padding:10px;
-  margin-top:10px;
+  margin:5px 0 5px 90px;
+  /* padding:10px; */
+  /* margin-top:10px; */
   color:grey;
+}
+.main-section > h3{
+  margin-left:10px;
 }
