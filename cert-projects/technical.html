@@ -3,40 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/technical.css">
   </head>
   <body>
     <nav id="navbar">
-      <header></header>
-      <a href="#" class="nav-link"></a>
-      <a href="#" class="nav-link"></a>
-      <a href="#" class="nav-link"></a>
-      <a href="#" class="nav-link"></a>
-      <a href="#" class="nav-link"></a>
+      <ul>
+        <li><header>PROGRAMMING LANGUAGES</header></li>
+        <li><a href="#web_design" class="nav-link">web design</a></li>
+        <li><a href="#introduction" class="nav-link">introduction</a></li>
+        <li><a href="#back-end" class="nav-link">Back-end Development</a></li>
+        <li><a href="#OOP" class="nav-link">Object Oriented Programming</a></li>
+        <li><a href="#python" class="nav-link">PYTHON</a></li>
+      </ul>
     </nav>
     <main id="main-doc">
-      <section class="main-section" id="introduction">
-        <!----header element----->
-        <header>Introduction</header>
-        <p>JavaScript is a cross-platform, object-oriented scripting language.  </p>
-        <p>It is a small and lightweight language.</p>
-        <p>Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
-        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements.</p>
-        <p>Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example: </p>
-        <ul>
-          <li> Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.
-</li>
-          <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server. </li>
-          <li>Increase front-end interaction</li>
-          <li>Enables high functionality in front-end</li>
-          <li>Better Presentation of the websites</li>
-        </ul>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </section>
+      <!---section 1 out of 5-->
       <section class="main-section" id="web_design">
         <header>WEB DESIGN</header>
         <p>Web design can be divided into front-end or back-end.</p>
@@ -44,7 +25,7 @@
         </p>
         <p>The back-end mainly involves how data supplied by users can be stored into a database system and how these data can also be retrieved to provide details to users.</p>
         <p>For front-end, web developers  achieve this by using the following languages:</p>
-        <ul>
+        <ul class="list">
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
@@ -59,7 +40,7 @@
         </code>
         <p>the statement above is used to set the background-color of the paragraph to red</p>
         <p>There are 3 types using Cascading Styles which are :</p>
-        <ul>
+        <ul class="list">
           <li>Inline css</li>
           <li>External css</li>
           <li>Header style css</li>
@@ -75,14 +56,63 @@
             color:red;
         }<\/head></code>
         <p>Web design also uses javascript which is used to add functionality to webpages and provide better user interaction.</p>
+      </section>
+
+      <!---section 2 out of 5-->
+      <section class="main-section" id="introduction">
+        <!----header element----->
+        <header>Introduction</header>
+        <p>JavaScript is a cross-platform, object-oriented scripting language.  </p>
+        <p>It is a small and lightweight language.</p>
+        <p>Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements.</p>
+        <p>Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example: </p>
+        <ul class="list">
+          <li> Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.
+</li>
+          <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server. </li>
+          <li>Increase front-end interaction</li>
+          <li>Enables high functionality in front-end</li>
+          <li>Better Presentation of the websites</li>
+        </ul>
+        <p>Some examples of javascript code is given below:</p>
+        <code>
+          console.log("Hello World.");
+        </code>
+        <p>The above statement is used to print out the text "Hello World" in the console of the browser. The keword console.log() is a function that is used to diplay data.</p>
+        <p>Example 2:</p>
+        <code>
+          let button1 = document.querySelector("#buttonElem");
+        </code>
+        <p>In the above program we create a variable using the let keyword followed by the variable_name.</p>
+        <p>Javascripts access elements of html documents throught the document object model inshort for DOM. It uses the <strong>document</strong>.</p>
+        <p>Other examples will be provided below on how to declare and initialize a variable.</p>
+        <code>
+          var userName;
+          userName = "Gard Alson"
+        </code>
+        <p>The <strong>var</strong> keyword is a depreceated convenction in declaring a variable</p>
+        <code>
+          const idNumber;
+          idNumber = 0101010;
+        </code>
+        <p>The <strong>const</strong> keyword is used to set a variable value to be constant or unchangable.</p>
+        <code>
+          button1.innerText = "Welcome";
+        </code>
+        <p>the <strong>innerText</strong>  is a attribute that can be used to change the text of an element.</p>
 
       </section>
+
+      
+
+      <!---section 3 out of 5-->
       <section class="main-section" id="back-end">
         <header>Back-end Development</header>
         <p>The back-end development of the website is used to capture user data and store the data.</p>
         <p>It can also be used for data retrieving data from the database to provide information to users.</p>
         <p>Back-end development mainly involves using the following languages : </p>
-        <ul>
+        <ul class="list">
           <li>PHP</li>
           <li>SQL</li>
           <li>Javascript</li>
@@ -101,18 +131,19 @@
         <p>For more information click the link <a href="" target="_blank">More Information</a></p>
         <p></p>
       </section>
+      <!---section 4 out of 5-->
       <section class="main-section" id="OOP">
         <header>Object Oriented Programming</header>
-                <p>Object Oriented Programming Language is a programming language that uses objects to design and develop programms and application</p>
+        <p>Object Oriented Programming Language is a programming language that uses objects to design and develop programms and application</p>
         <p>Each object consist of its own data and has it's own function which can manipulate the data</p>
         <p>Examples of Object Oriented Programming Language include : </p>
-        <ul>
+        <ul class="list">
           <li>C++</li>
           <li>C#</li>
           <li>Javascript</li>
         </ul>
         <p>For a programming language to be considered as an Object Programming Language, it should meet the following : </p>
-        <ul>
+        <ul class="list">
           <li>Support inheritance</li>
           <li>Support polymorphism</li>
           <li>Support Data Encapsulation</li>
@@ -132,18 +163,52 @@
         <p></p>
           
       </section>
+
+      <!---section 5 out of 5-->
       <section class="main-section" id="python">
         <header>PYTHON</header>
-                <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-
+        <p>Pyton is a high level programming language that is user friendly and is known for it's high programming features, modules and compatibility.</p>
+        <p>The current version of python is 3.11.7</p>
+        <p>To install python modules use the <strong>pip</strong> which stands for preferrred installer program, followed by the package name.</p>
+        <p>An example is provided below:</p>
+        <code>
+          print("hello world")
+        </code>
+        <p>The above program is used to display the word <i>Hello world</i> using the <strong>print()</strong> function.Any code within the double quotation is treated an characters to be displayed.</p>
+        <h3>Variable Declaration</h3>
+        <code>
+          name = None  
+        </code>
+        <p>In the above program we declared the variable <i>name</i> and set it's value to None.</p>
+        <code>
+          name = "Gard Alson"
+        </code>
+        <p>In the above statement we assigned the variabe <i>name</i> the value <i>Gard alson</i></p>
+        <h3>Conditional Statement</h3>
+        <p>Conditional statements are used to execute a block of code if the specified condition is met.</p>
+        <p>Example:</p>
+        <code>
+          number = 9
+          if number > 10:
+            print(number)
+        </code>
+        <p>The above code prints the value of the variable number if it is equal or greater than 10</p>
+        <p>Example 2: if else</p>
+        <code>
+          if number > 5:
+            print(number)
+          else:
+            print("the value of the variable number is greater than 5.")
+        </code>
+        <p>In the above code the value of the variable number will be printed if it's larger than 5 and if not the code statement within the else will be executed.</p>
+        <p>Uses of Python Programming Language</p>
+        <ul class="list">
+          <li>Data Science</li>
+          <li>Web Development</li>
+          <li>Game Development</li>
+          <li>Scripting</li>
+          <li>Computer Vision</li>
+        </ul>
       </section>
     </main>
   </body>

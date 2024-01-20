@@ -1,8 +1,78 @@
-header{
-  font-size:25px;
-  font-weight:700;
-  margin:10px 0;
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
-p{
-  margin:10px;
+
+#navbar{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100vh;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav ul li{
+  border: 1px solid black;
+  text-align: left;
+  padding-left:30px;
+}
+nav > ul > li > header{
+  padding-top:20px;
+  padding-bottom:20px;
+  /* padding:20px;
+  text-align: center; */
+  font-size: 22px;
+  font-weight: 700;
+}
+nav ul li a{
+  color:black;
+  text-decoration: none;
+  text-transform:uppercase;
+  line-height: 50px;
+  font-weight: 500;
+  /* background-color: red; */
+  /* text-align: right; */
+}
+.main-section > header{
+  font-size:25px;
+  font-weight: 650;
+  margin-bottom: 0;
+  padding:0;
+}
+.main-section{
+  margin-left: 30px;
+  width:1200px;
+  max-width:80%;
+  display: block;
+}
+.main-section > p{
+  color:gray;
+  padding-left:30px;
+  margin-bottom:0;
+  padding-bottom: 0;
+  line-height: 5px;
+  font-size:15px;
+  /* color:rgba(17, 57, 92, 0.062); */
+}
+code{
+  display: block;
+  background: blue;
+  margin:20px 30px;
+  padding:15px;
+  position:static;
+  width:100%;
+  border-radius: 3px;
+  /* z-index:0; */
+  /* margin-top:20px; */
+}
+.main-section > .list{
+  /* background-color: red; */
+  margin-left: 60px;
+  padding:10px;
+  margin-top:10px;
+  color:grey;
 }
