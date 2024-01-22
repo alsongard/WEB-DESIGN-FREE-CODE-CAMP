@@ -1,40 +1,22 @@
-body{
+*{
   margin:0;
   padding:0;
   box-sizing: border-box;
+  overflow: hidden;
 }
-
-#navbar{
-  /* background-color: red; */
-  display: flex;
-  flex-direction: column;
-  width: 400px;
+#main-doc{
+  margin-left:400px;
 }
-nav ul{
-  margin: 0;
-  padding: 0;
+.main-section{
+  width:966px;
+  max-width:95%;
+  min-width:350px;
+  margin:20px auto;
+  padding:10px 10px;
 }
-nav ul li{
-  border: 1px solid black;
-  text-align: left;
-  padding-left:30px;
-}
-nav > ul > li > header{
-  padding-top:20px;
-  padding-bottom:20px;
-  /* padding:20px;
-  text-align: center; */
-  font-size: 22px;
-  font-weight: 700;
-}
-nav ul li a{
-  color:black;
-  text-decoration: none;
-  text-transform:uppercase;
-  line-height: 50px;
-  font-weight: 500;
-  /* background-color: red; */
-  /* text-align:right; */
+.main-section > #pageHeader{
+  text-align: center;
+  margin-bottom:20px;
 }
 .main-section > header{
   font-size:25px;
@@ -42,16 +24,16 @@ nav ul li a{
   margin-bottom: 0;
   padding:0;
 }
-.main-section{
-  width:1200px;
-  max-width:80%;
-  display: block;
-  margin:30px 0 30px 30px;
+.main-section > .list{
+  margin:5px 0 5px 90px;
+  color:grey;
+}
+.main-section > h3{
+  margin-left:10px;
 }
 .main-section > p{
+  padding-left:20px;
   color:gray;
-  padding-left:30px;
-  /* margin-bottom:0; */
   padding-bottom: 0;
   margin:0px;
   font-size:15px;
@@ -61,18 +43,58 @@ code{
   background: rgb(230, 230, 238);
   margin:10px 50px;
   padding:15px;
-  width:100%;
   border-radius: 3px;
   /* z-index:0; */
   /* margin-top:20px; */
 }
-.main-section > .list{
-  /* background-color: red; */
-  margin:5px 0 5px 90px;
-  /* padding:10px; */
-  /* margin-top:10px; */
-  color:grey;
+#navbar{
+  background-color: rgb(238, 226, 226);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  position:fixed;
+  height: 100%;
+  top:0;
+  left:0;
+  border-right:3px solid black;
 }
-.main-section > h3{
-  margin-left:10px;
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav ul li{
+  border-bottom: 1px solid black;
+  padding-left:30px;
+}
+nav > ul > li > header{
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+nav ul li a{
+  color:rgba(0, 0, 0, 0.808);
+  text-decoration: none;
+  text-transform:uppercase;
+  line-height: 50px;
+  font-weight: 500;
+  padding-left:20px;
+  /* background-color: red; */
+}
+nav ul li a:hover{
+  color:rgb(119, 198, 230);
+  transition: ease-in 0.50s;
+}
+
+
+@media(max-width:420px){
+  #navbar{
+    top:0;
+    width:100%;
+    height:400px;
+  }
+  #main-doc{
+    margin-left:0;
+    margin-top:400px;
+  }
 }
