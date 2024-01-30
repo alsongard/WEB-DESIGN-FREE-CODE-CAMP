@@ -110,3 +110,17 @@ set the position the absolute, and ensure the top,right,bottom,left values are 0
 >>right:0
 >>bottom:0
 >>left:0
+
+### CSS VARIABLES
+To declare a css variable use the syntax    ``--variableName-property:value``
+```root:{
+    --builing-color:rgb | hsl | color;
+}
+```
+to use the variable name use the syntax ``var(--variableName)``
+example:
+```
+    .home{
+        background-color:var(--builidng-color);
+    }
+```
