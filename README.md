@@ -124,3 +124,8 @@ example:
         background-color:var(--builidng-color);
     }
 ```
+
+### img attribures
+* #### loading
+the loading attribute is used to set how the image of the img loads. Setting it to lazy enables other elements of the page to load and only the image to load when the user scrolls through the image.
+``<img src="file-location" loading="lazy">``
