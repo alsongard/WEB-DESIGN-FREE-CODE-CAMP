@@ -4,68 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/productLanding.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Product Landing Page</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="" alt="">
-        </div>
-        <nav>
+    <header id="header">
+            <img id="header-img" src="../img/music-musical-instrument-product-recorder-woodwind-flute-399304-pxhere.com.jpg" alt="">
+        <nav id="nav-bar">
             <ul>
-                <li><a href="">Features</a></li>
-                <li><a href="">How it works</a></li>
-                <li><a href="">Pricing</a></li>
+                <li><a class="nav-link" href="">Features</a></li>
+                <li><a class="nav-link" href="#feature">How it works</a></li>
+                <li><a class="nav-link" href="#prices">Pricing</a></li>
             </ul>
         </nav>
     </header>
-    <form method="POST" href="">
-        <h2>Handcrafted home=made masterpieces</h2>
-        <input type="email" placeholder="Enter your email address">
-        <input type="submit" value="submit">
+
+    <form method="POST" action="https://www.freecodecamp.com/email-submit" id="form">
+        <h2>Handcrafted home-made masterpieces</h2>
+        <input id="email" type="email" name="email" placeholder="Enter your email address">
+        <input id="submit" type="submit" value="submit">
     </form>
 
-    <div>
+    <section id="feature">
         <ul>
-            <li><img src="" alt=""><p><h3>Premium Materials</h3>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p></li>
-            <li><img src="" alt=""><p><h3>Fast Shipping</h3>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. </p> </li>
-            <li><img scr="" alt=""><p><h3>Quality Assuarance</h3>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p> </li>
+            <li><i class="fa-solid fa-fire-flame-curved"></i><div class="feature-text"><h3>Fast Shipping</h3><p>We make sure you recieve your trombone as soon as we have finished  making it. We also provide free returns if you are not satisfied.</p></div></li>
+            <li><i class="fa-solid fa-truck"></i><div class="feature-text"><p><h3>Premium Materials</h3><p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p></div></li>
+            <li><i class="fa-solid fa-battery-full"></i><div class="feature-text"><h3>Quality Assuarance</h3><p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p></div></li>
         </ul>
-    </div>
+    </section>
+    
+    <section id="works">
 
-    <div>
-        <div class="sub-sections">
-            <h4>tenor trombone</h4>
-            <p class="price">$600</p>
-            <p class="text">Lorem ispum</p>
-            <p class="text">Lorem ispum</p>
-            <p class="text">Lorem ispum</p>
-            <p class="text">Lorem ispum dolor</p>
-            <p class="text">Lorem ispum</p>
-
-            <button type="button">SELECT</button>
-        </div>
-        <div class="sub-sections">
-            <h4>bass trombone</h4>
-            <p class="price">$900</p>
-            <p class="text">Lorem ispum</p>
-            <p class="text">Lorem ispum</p>
-            <p class="text">Lorem ispum</p>
-            <p class="text">Lorem ispum dolor</p>
-            <p class="text">Lorem ispum</p>
-            <button type="button">SELECT</button>
-        </div>
-        <div class="sub-sections">
-            <h4>valve trombone</h4>
-            <p class="price">$1200</p>
-            <p class="text">Lorem ispum</p>
-            <p class="text">Lorem ispum</p>
-            <p class="text">Lorem ispum</p>
-            <p class="text">Lorem ispum dolor</p>
-            <p class="text">Lorem ispum</p>
-            <button type="button">SELECT</button>
-        </div>
-    </div>
+    </section>
+    <section id="prices">
+            <div class="sub-sections">
+                <h4>tenor trombone</h4>
+                <p class="price">$600</p>
+                <p class="text">Lorem ispum</p>
+                <p class="text">Lorem ispum</p>
+                <p class="text">Lorem ispum</p>
+                <p class="text">Lorem ispum dolor</p>
+                <p class="text">Lorem ispum</p>
+    
+                <button type="button">SELECT</button>
+            </div>
+            <div class="sub-sections">
+                <h4>bass trombone</h4>
+                <p class="price">$900</p>
+                <p class="text">Lorem ispum</p>
+                <p class="text">Lorem ispum</p>
+                <p class="text">Lorem ispum</p>
+                <p class="text">Lorem ispum dolor</p>
+                <p class="text">Lorem ispum</p>
+                <button type="button">SELECT</button>
+            </div>
+            <div class="sub-sections">
+                <h4>valve trombone</h4>
+                <p class="price">$1200</p>
+                <p class="text">Lorem ispum</p>
+                <p class="text">Lorem ispum</p>
+                <p class="text">Lorem ispum</p>
+                <p class="text">Lorem ispum dolor</p>
+                <p class="text">Lorem ispum</p>
+                <button type="button">SELECT</button>
+            </div>
+    </section>
 
     <footer>
         <ul>
