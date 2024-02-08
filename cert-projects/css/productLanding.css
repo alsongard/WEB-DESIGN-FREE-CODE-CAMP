@@ -7,13 +7,14 @@
     --main-color:black;
     --header-size:16px;
 }
-header{
+#header{
     position: fixed;
     top:0;
     background-color: rgb(240, 214, 214);
     display: flex;
     width:100%;
     justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     height: 70px;
     margin-bottom:200px;
@@ -27,24 +28,26 @@ header{
     margin-left:70px;
     border-radius: 10px;
 }
-body{
-    background-color: rgb( 240, 243, 244 );
-}
 #nav-bar > ul{
     display: flex;
     list-style: none;
     gap:5rem;
     margin-right:90px;
 }
-/* #nav-bar > ul > li{
-     padding-right: 10px; 
-} */
 #nav-bar > ul > li > a{
     text-decoration: none;
     color:var(--main-color);
     font-size: var(--header-size);
     text-transform: capitalize;
 }
+body{
+    background-color: rgb( 240, 243, 244 );
+}
+
+/* #nav-bar > ul > li{
+     padding-right: 10px; 
+} */
+
 /* section{
     margin-top:100px;
 } */
@@ -169,4 +172,80 @@ footer > p{
 .feature-text{
     /* margin-left:50px; */
     text-align: left;
+}
+#works{
+    width:800px;
+    max-width: 80%;
+    margin: 0 auto;
+    /* background-color: red; */
+    padding:20px;
+}
+.center{
+    /* width: 100%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:958px){
+    #nav-bar > ul{
+        gap:3rem;
+    }
+    .sub-sections{
+        width:250px;
+    }
+
+    #feature{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:798px){
+    #header{
+        flex-wrap: wrap;
+    }
+    #prices{
+        flex-direction: column;
+    }
+    .sub-sections{
+        width:350px;
+        max-width:100%;
+        min-width:250px;
+    }
+}
+@media(max-width:558px){
+    #header > #header-img{
+        margin-left:auto;
+        margin-right: auto;
+        /* height:200px; */
+        /* flex-direction: column; */
+    }
+    #nav-bar ul{
+        flex-direction: column;
+        gap:0rem;
+    }
+    #nav-bar ul li a{
+        font-size: 13px;
+    }
+}
+@media(max-width:532px){
+    #header{
+        height:200px;
+        flex-direction: column;
+    }
+    #nav-bar ul{
+        text-align: center;
+        flex-direction: column;
+        margin-top:80px;
+        gap:1rem;
+    }
+    #header-img{
+        text-align: unset;
+    }
+}
+@media(max-width:514px){
+    #feature ul li i{
+        display: none;
+    }
+    .feature-text{
+        text-align:center;
+    }
 }
