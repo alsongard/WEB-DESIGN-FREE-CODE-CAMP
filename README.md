@@ -129,3 +129,7 @@ example:
 * #### loading
 the loading attribute is used to set how the image of the img loads. Setting it to lazy enables other elements of the page to load and only the image to load when the user scrolls through the image.
 ``<img src="file-location" loading="lazy">``
+
+## backup font
+to add a backup font if the first font fails, add the backup font after the primary font:
+``font-family:Helvetica, sans-serif;``
