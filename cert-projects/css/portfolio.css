@@ -1,0 +1,55 @@
+*{
+margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --white-col:white;
+}
+header{
+    background:rgb( 231, 76, 60 );
+    position:fixed;
+    width:100%;
+    padding:20px 0;
+    top:0;
+}
+#navbar{
+    list-style:none;
+    display:flex;
+    float: inline-end;
+    justify-content:space-evenly;
+    width:350px;
+    /* background-color: yellow; */
+}
+#navbar li a{
+    text-decoration: none;
+    color:var(--white-col);
+    font-size: 20px;
+    font-family:Montserrat, sans-serif;
+    font-weight: 500;
+}
+/* #navbar li{
+    padding:20px 10px;
+} */
+#navbar li:hover{
+    background-color: rgb( 128, 139, 150 );
+}
+#welcome-section{
+    text-align: center;
+    height: 100vh;
+    background-color: rgb( 52, 73, 94 );
+    padding-top:270px;
+}
+
+#welcome-section h1{
+    font-size:50px;
+    color:var(--white-col);
+    font-style: Montserrat, sans-serif;
+}
+#welcome-section span{
+    font-size: 40px;
+    display: block;
+    color:rgb( 231, 76, 60 );
+    font-weight: 200;
+    font-style: italic;
+}
