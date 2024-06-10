@@ -37,10 +37,11 @@ header{
 #welcome-section{
     text-align: center;
     height: 100vh;
-    background-color: rgb( 52, 73, 94 );
+    /* background-color: rgb( 52, 73, 94 ); */
     padding-top:270px;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
-
 #welcome-section h1{
     font-size:50px;
     color:var(--white-col);
@@ -52,4 +53,49 @@ header{
     color:rgb( 231, 76, 60 );
     font-weight: 200;
     font-style: italic;
+}
+#projects{
+    background-color:  #45567d;
+    /* background-color: rgb( 25, 94, 129 ); */
+}
+#projects h1{
+    text-align: center;
+    color:var(--white-col);
+    padding:90px 0 20px;
+}
+#projects hr{
+    height:5px;
+    background-color: white;
+    margin:5px 0 20px 0;
+}
+.project-container{
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: auto auto auto;
+    /* align-items: center; */
+    justify-content: center;
+}
+.project-container a{
+    text-decoration: none;
+
+}
+.project-tile{
+    border:2px solid black;
+    /* padding:20px; */
+}
+.project-tile img{
+    width:320px;
+    height: 320px;
+    /* border-radius: 10px; */
+}
+figure{
+    background-color: black;
+
+}
+figure  figcaption{
+    text-align: center;
+    text-transform: capitalize;
+    color:white;
+    font-size: 20px;
+    padding:10px 0;
 }
