@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+    <meta name="author" content="alson gard">
+    <meta name="description" content="alson gard portfolio">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <link rel="stylesheet" href="./css/portfolio.css">
@@ -11,9 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <body>
-        <header>
+        <header id="header">
             <ul id="navbar">
-                <li><a href="#">About</a></li>
+                <li><a id="profile-link" target="_blank" href="#">About</a></li>
                 <li><a href="#projects">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -21,15 +23,14 @@
         <section id="welcome-section">
             <h1>Hey I am Alson <span>a Full Stack developer</span></h1>
         </section>
-
         <section id="projects">
-            <h1>These my some of my projects</h1>
-            <hr>
+            <h1>These are some of my projects</h1>
         <div class="project-container">
             <a href="https://github.com/alsongard/REACT/blob/main/all_projects/src/Components/touristPage.js">
                 <div class="project-tile">
                     <figure>
-                        <img src="../img/tourist_image_work.png" alt="tourist webpage">
+                        <!-- <img src="../img/tourist_image_work.png" alt="tourist webpage"> -->
+                        <img src="https://images.pexels.com/photos/2659475/pexels-photo-2659475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="tourist webpage">
                         <figcaption>Tourist Data Driven Page</figcaption>
                     </figure>                
                 </div>
@@ -37,7 +38,8 @@
             <div class="project-tile">
                 <a href="https://github.com/alsongard/REACT/blob/main/all_projects/src/Components/AirBnB.js">
                     <figure>
-                        <img src="../img/airbnb_image_work.png" alt="airbnb webpage">
+                        <!-- <img src="../img/airbnb_image_work.png" alt="airbnb webpage"> -->
+                        <img src="https://images.pexels.com/photos/2659629/pexels-photo-2659629.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="airbnb webpage">
                         <figcaption>airbnb Data driven Page</figcaption>
                     </figure>
                 </a>                
@@ -45,7 +47,9 @@
             <div class="project-tile">
                 <a href="https://github.com/alsongard/WEB-DESIGN-FREE-CODE-CAMP/blob/main/formPage.html">
                     <figure>
-                        <img src="../img/form_image_work.png" alt="form webpage">
+                        
+                        <!-- <img src="../img/form_image_work.png" alt="form webpage"> -->
+                        <img src="https://uicookies.com/wp-content/uploads/2020/10/Login-Form-V20.jpg" alt="form webpage">
                         <figcaption>Form Webpage</figcaption>
                     </figure> 
                 </a>               
@@ -55,7 +59,6 @@
         <section id="contact">
             <h1>Let's work together <div class="dots"></div><div class="dots"></div><div class="dots"></div></h1>
             <p>How do you take your coffee?</p>
-
             <div class="social-icons">
                 <i class='bx bxl-facebook-square'> Facebook</i>
                 <i class='bx bxl-github'> Github</i>
@@ -63,7 +66,7 @@
                 <i class='bx bxl-gmail'> Send a Mail</i>
                 <i class='bx bxs-phone-call'> Call me</i>
             </div>
-        </section id="contact">
+        </section>
         <footer>
             <p>Made by <i class='bx bxs-heart'></i> Dreamer </p>
         </footer>
